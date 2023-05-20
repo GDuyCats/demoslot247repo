@@ -1,0 +1,18 @@
+{
+  "name": "git-test-02",
+  "version": "1.0.0",
+  "description": "This is example about git-test-03",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/GDuyCats/demoslot247repo.git)"
+  },
+  "author": "Cat",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
