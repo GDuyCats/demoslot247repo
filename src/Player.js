@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+        import React, { Component } from 'react'
 export default class player extends Component {
     render() {
         return (
@@ -54,3 +54,19 @@ export default class player extends Component {
         )
     }
 }
+import { Players } from '../Share/ListOfPlayers'
+return (
+    <div className='container'>
+        {Players.map((player)=>(
+           <div className='column'>
+           <div className='card'>
+           <img src={player.img}/>
+             <h3>{player.name}</h3>
+             <p className='title'>{player.club}</p>
+             <p><button>Detail</button></p>
+           </div>
+         </div>
+        ))}
+    </div>
+  )
+
